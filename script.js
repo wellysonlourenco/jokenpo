@@ -3,6 +3,8 @@ var computadorEscolha;
 
 function sortear(min, max){
     return Math.floor(Math.random() * (max - min + 1)) + 1; // floor -- arredonda 
+
+}
 //escolhe a jogada do usuario
 //1 - pedra
 //2 - papel
